@@ -1,0 +1,28 @@
+# 환경 변수 (비밀번호·키 포함) — .env.example 만 올린다
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# 로컬 SQLite DB
+*.db
+*.sqlite3
+
+# Node (frontend/.gitignore 에도 있음)
+node_modules/
+dist/
+
+# 에디터 / OS
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+.DS_Store
+Thumbs.db
